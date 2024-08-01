@@ -1,0 +1,95 @@
+body { /* Define a fonte, cor de fundo, margem e padding do corpo da página. */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.app-container{ /* Estiliza o contêiner principal da aplicação, definindo largura, margem, cor de fundo, padding, borda arredondada e sombra. */
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{ /* Centraliza e define a cor do título */
+    text-align: center;
+    color: #333;
+}
+
+.note-input { /* Define margem inferior para a seção de entrada de notas */
+    margin-bottom: 20px;
+}
+ 
+/* Estiliza os campos de entrada, definindo largura, padding, margem, borda e borda arredondada. */
+.note-input input, .note-input textarea {
+    width: 98%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estiliza o botão de adicionar nota, definindo largura, padding, cor de fundo, cor do texto, borda, borda arredondada, margem e cursor */
+.note-input button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Altera a cor de fundo do botão ao passar o mouse. */
+.note-input button:hover {
+    background-color: #218838;
+}
+
+/*  Define margem superior para a lista de notas. */
+.notes-list {
+    margin-top: 20px;
+}
+
+/*  Estiliza cada nota, definindo cor de fundo, borda, borda arredondada, padding e margem inferior */
+.note-item {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/*  Remove margem do título da nota */
+.note-item h3 {
+    margin: 0;
+}
+ 
+/* Define margem para o conteúdo da nota. */
+.note-item p {
+    margin: 5px 0;
+}
+ 
+/* Define a cor das tags da nota. */
+.note-item .tags {
+    color: #888;
+}
+ 
+/* Estiliza o botão de excluir nota, definindo cor de fundo, cor do texto, borda, padding, borda arredondada e cursor. */
+.note-item button {
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Altera a cor de fundo do botão ao passar o mouse. */
+.note-item button:hover {
+    background: #c82333;
+}
